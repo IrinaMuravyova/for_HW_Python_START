@@ -17,7 +17,7 @@ lst = [random.randint(1, countEl) for i in range(countEl)]
 print(*lst)
 findEl = int(input('Input number for search: '))
 
-dif = abs((lst[0]) - findEl)
+dif = abs(lst[0] - findEl)
 nearestEl = lst[0]
 
 for el in lst:
