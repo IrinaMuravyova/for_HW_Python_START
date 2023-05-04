@@ -12,9 +12,12 @@ import random
 
 countEl = int(input('Input count of elements: '))
 lst = [random.randint(1, countEl) for i in range(countEl)]
-print(lst)
+print(*lst)
 findEl = int(input('Input number for search: '))
 for el in lst:
     if el == findEl:
         print(lst.count(el))
+        break
+    else: 
+        print('Number not found')
         break
