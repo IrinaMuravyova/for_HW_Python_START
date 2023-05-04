@@ -11,9 +11,7 @@
 import random
 
 countEl = int(input('Input count of elements: '))
-# if countEl > 0:
 lst = [random.randint(1, countEl) for i in range(countEl)]
-# else: print('Enter a whole natural number')
 print(lst)
 findEl = int(input('Input number for search: '))
 for el in lst:
